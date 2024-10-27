@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gioco 3D - Mago e Cani</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="home">
+        <h1>Benvenuti nel Gioco 3D - Mago e Cani</h1>
+        <button onclick="startGame()">Gioca</button>
+        <button onclick="showLeaderboard()">Classifica</button>
+        <button id="musicButton" onclick="toggleMusic()">Musica On</button>
+        <div id="leaderboard">
+            <h2>Classifica</h2>
+            <ul id="leaderboardList"></ul>
+            <button onclick="hideLeaderboard()">Torna alla Home</button>
+        </div>
+    </div>
+    <div id="game">
+        <div id="score">Punteggio: 0</div>
+        <div id="timer">Tempo rimasto: 120s</div>
+        <button onclick="returnHome()">Torna alla Home</button>
+        <div class="joystick" id="leftJoystick" style="bottom: 50px; left: 30px;">
+            <div class="stick" id="leftStick"></div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

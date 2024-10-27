@@ -1,0 +1,11 @@
+body { margin: 0; }
+canvas { display: block; }
+div#score { position: absolute; top: 10px; left: 10px; color: white; font-size: 20px; }
+div#timer { position: absolute; top: 10px; left: 200px; color: white; font-size: 20px; }
+div#home { text-align: center; margin-top: 50px; }
+button { padding: 10px 20px; font-size: 16px; margin: 5px; }
+h2 { margin-top: 30px; }
+div#leaderboard, div#game { display: none; }
+#game button { position: absolute; top: 10px; right: 10px; }
+.joystick { display: none; position: absolute; width: 100px; height: 100px; border: 2px solid white; border-radius: 50%; background: rgba(255, 255, 255, 0.5); }
+.stick { position: absolute; width: 50px; height: 50px; border-radius: 50%; background: rgba(0, 0, 0, 0.5); }
